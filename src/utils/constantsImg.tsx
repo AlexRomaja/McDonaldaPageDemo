@@ -15,3 +15,6 @@ export const swipeMenuData = [
     {id:6, label:'Cajita Feliz', src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$kfXvFNqn/200/200/original?country=mx'},
     {id:7, label:'Cajita Feliz Desayuno', src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$kfXlsEeu/200/200/original?country=mx'},
 ];
+
+/* Banner bigHambuger */
+export const bannerBuger = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Desktop_e086fa9a29.jpg';

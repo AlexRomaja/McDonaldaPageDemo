@@ -31,7 +31,7 @@ export default function SwipeMenu () {
                                 draggable={false}
                                 />
                             </div>
-                            <span className='text-[12px] text-black-500 text-center leading-tight pointer-events-none'>
+                            <span className='text-[12px] text-black text-center leading-tight pointer-events-none'>
                                 {item.label}
                             </span>
                         </button>
