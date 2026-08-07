@@ -27,6 +27,7 @@ export default function SwipeMenu () {
                                 src={item.src}
                                 alt={item.label}
                                 fill
+                                sizes='60px'
                                 className='object-contain'
                                 draggable={false}
                                 />

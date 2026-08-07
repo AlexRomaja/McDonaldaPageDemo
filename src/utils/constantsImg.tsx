@@ -1,5 +1,6 @@
 
 /* Images URL*/
+/*              HOME            */
 /* Header */
 export const burgerMobil = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/mobile_Home_Background_2c12ef6e55.webp';
 export const burgerDesk = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/home_Background_785a456a07.webp';
@@ -19,3 +20,8 @@ export const swipeMenuData = [
 /* Banner bigHambuger */
 export const bannerBuger = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Desktop_e086fa9a29.jpg';
 export const bannerBugerMobil = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Mobile_ad909f4648.jpg'
+
+/* Carrusel */
+export const spiderCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Spider_Manl_Banner_720_x_450_72b18d1e10.png';
+export const appRegistro = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Loyalty_Banners_720x450_ok_3c5e6a2870.png';
+export const mundialCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_CUPS_Web_Banner_CAROUSEL_720x450_18ccdb8e53.png';
