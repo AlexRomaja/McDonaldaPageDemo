@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'mcd-landings-l-statics.appmcdonalds.com',
         pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'api-middleware-mcd.mcdonaldscupones.com',
+        pathname: '/**'
       }
     ]
   }

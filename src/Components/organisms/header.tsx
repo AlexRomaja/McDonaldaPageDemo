@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@heroui/react';
-import { burgerMobil, burgerDesk } from '@/utils/constants';
+import { burgerMobil, burgerDesk } from '@/utils/constantsImg';
 
 
 export default function Header () {
