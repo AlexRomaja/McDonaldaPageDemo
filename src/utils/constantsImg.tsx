@@ -18,3 +18,4 @@ export const swipeMenuData = [
 
 /* Banner bigHambuger */
 export const bannerBuger = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Desktop_e086fa9a29.jpg';
+export const bannerBugerMobil = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Mobile_ad909f4648.jpg'
