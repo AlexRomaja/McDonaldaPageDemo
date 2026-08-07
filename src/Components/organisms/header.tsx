@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@heroui/react';
+import { burgerMobil, burgerDesk } from '@/utils/constants';
 
 
 export default function Header () {
@@ -8,15 +9,16 @@ export default function Header () {
 
     return(
         <>
-        <div className=" relative xsm:h-[320px] md:h-[545px] w-full overflow-hidden ">
+        <div className=" relative xsm:h-[320px] md:h-[545px] w-full overflow-hidden transition-all duration-500 ease-in-out">
             {/* Shader */}
-            <div className="absolute inset-0 w-full bg-black/50 md:hidden pointer-events-none z-10" />
-            <div className="absolute inset-y-0 left-0 w-[95%] hidden md:block bg-gradient-to-r from-black/70 via-black/60 to-transparent pointer-events-none z-10" />
+            <div className="absolute inset-0 w-full bg-black/50 opacity-100 md:opacity-0 transition-opacity duration-70 pointer-events-none z-10" />
+            <div className="absolute inset-y-0 left-0 w-[95%] bg-gradient-to-r from-black/70 via-black/60 to-transparent pointer-events-none z-10
+            opacity-0 md:opacity-100 transition-opacity duration-700" />
 
             {/* Mobil */}
-            <div className='absolute inset-0 block md:hidden z-0'>
+            <div className='aabsolute inset-0 z-0 opacity-100 md:opacity-0 transition-opacity duration-700 ease-in-out'>
                 <Image
-                src="https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/mobile_Home_Background_2c12ef6e55.webp"
+                src={`${burgerMobil}`}
                 alt="Header background"
                 fill
                 className="object-cover object-center"
@@ -25,9 +27,9 @@ export default function Header () {
             </div>
 
              {/* Desk */}
-            <div className='absolute inset-0 md:block hidden z-0'>
+            <div className='absolute inset-0 z-0 opacity-0 md:opacity-100 transition-opacity duration-700 ease-in-out'>
                 <Image
-                src="https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/home_Background_785a456a07.webp"
+                src={`${burgerDesk}`}
                 alt="Header background"
                 fill
                 className="fill object-center"
@@ -37,7 +39,7 @@ export default function Header () {
 
             {/* Text Buttons */}
             <div className='relative h-full w-full pl-0 md:pl-20 z-20 flex flex-col justify-center
-             items-center md:items-start border border-red-500'>
+             items-center md:items-start'>
                 <h1 className='text-white font-bold text-[25px] md:text-[40px]'>
                     Cómo quieres hoy tu pedido
                 </h1>
