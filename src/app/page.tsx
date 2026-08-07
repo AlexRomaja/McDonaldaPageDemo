@@ -2,6 +2,7 @@ import { Button } from '@heroui/react';
 import Header from '@/Components/organisms/header';
 import SwipeMenu from '@/Components/organisms/swipeMenu';
 import BannerBigBurger from '@/Components/organisms/bannerBigBurguer';
+import CarruselHome from '@/Components/organisms/carruselHome';
 
 export default function Home() {
   
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <SwipeMenu />
       <BannerBigBurger />
+      <CarruselHome />
     </div>
     </>
   );

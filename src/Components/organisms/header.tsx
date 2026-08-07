@@ -21,6 +21,7 @@ export default function Header () {
                 src={`${burgerMobil}`}
                 alt="Header background"
                 fill
+                sizes='100vw'
                 className="object-cover object-center"
                 priority
                 />
@@ -32,6 +33,7 @@ export default function Header () {
                 src={`${burgerDesk}`}
                 alt="Header background"
                 fill
+                sizes='100vw'
                 className="fill object-center"
                 priority
                 />
