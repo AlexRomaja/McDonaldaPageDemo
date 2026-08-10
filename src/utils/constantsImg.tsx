@@ -25,3 +25,10 @@ export const bannerBugerMobil = 'https://mcd-landings-q-static.appmcdonalds.com/
 export const spiderCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Spider_Manl_Banner_720_x_450_72b18d1e10.png';
 export const appRegistro = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Loyalty_Banners_720x450_ok_3c5e6a2870.png';
 export const mundialCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_CUPS_Web_Banner_CAROUSEL_720x450_18ccdb8e53.png';
+
+/* Grid de 3 */
+export const cardsDataHome = [
+    {id:0 , label:'recoja', text:'Pida a casa o recoge tu pedido en el restaurante que prefieras', src:'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/marketing1_35cb4d3abf.jpg'},
+    {id:1 , label:'beneficios', text:'Disfruta de grandes descuentos y beneficios solo por registrarte', src:'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/marketing2_b7d0655866.jpg'},
+    {id:2 , label:'experiencia', text:'La experiencia McDonalds 100% pensada para ti y para los tuyos', src:'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/marketing3_de8e7ab735.jpg'}
+];
