@@ -32,3 +32,9 @@ export const cardsDataHome = [
     {id:1 , label:'beneficios', text:'Disfruta de grandes descuentos y beneficios solo por registrarte', src:'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/marketing2_b7d0655866.jpg'},
     {id:2 , label:'experiencia', text:'La experiencia McDonalds 100% pensada para ti y para los tuyos', src:'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/marketing3_de8e7ab735.jpg'}
 ];
+
+/* Carrusel Home */
+export const carruselImgHome = [
+    {id:0, label:'img1', src:'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Loyalty_Banners_1328x340_ok_79dbba8674.png'},
+    {id:1, label:'img2', src:'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/thumbnail_Banner_nueva_web_1328x340_e3a4b63e67_50ff04119d.jpeg'}
+];

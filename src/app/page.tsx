@@ -4,6 +4,7 @@ import SwipeMenu from '@/Components/organisms/swipeMenu';
 import BannerBigBurger from '@/Components/organisms/bannerBigBurguer';
 import CarruselHome from '@/Components/organisms/carruselHome';
 import CardsHome from '@/Components/organisms/cardsGridHome';
+import CarruselWMovement from '@/Components/organisms/carruselWMove';
 
 export default function Home() {
   
@@ -15,6 +16,7 @@ export default function Home() {
       <BannerBigBurger />
       <CarruselHome />
       <CardsHome />
+      <CarruselWMovement />
     </div>
     </>
   );
