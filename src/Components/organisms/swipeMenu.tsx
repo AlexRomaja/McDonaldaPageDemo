@@ -9,11 +9,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import { usePathname } from 'next/navigation';
 
-export default function SwipeMenu () {
-
-    const pathname = usePathname();
-
-    const addSlug = (text:string) => {
+const addSlug = (text:string) => {
         return text
         .toLocaleLowerCase()
         .normalize('NFD')
@@ -21,12 +17,18 @@ export default function SwipeMenu () {
         .replace(/ñ/g, 'n')
         .replace(/\s+/g, '-')
         .replace(/\s+/g, '-')
-    }
+}
 
-    const menuDataSlug = swipeMenuData.map((item) => ({
+const menuDataSlug = swipeMenuData.map((item) => ({
         ...item,
         slug: addSlug(item.label),
-    }))
+}))
+
+export default function SwipeMenu () {
+
+    const pathname = usePathname();
+
+    
 
     console.log('🪖 menuDataSlug ', menuDataSlug)
     return(
@@ -49,7 +51,7 @@ export default function SwipeMenu () {
                             href={href} 
                             className={`flex flex-col items-center w-20 md:w-24 
                             group transition-transform duration-200 hover:scale-110`}>
-                                <div className='relative h-12 w-12 pointer-event-none'>
+                                <div className='relative h-12 w-12 pointer-events-none'>
                                     <Image 
                                     src={item.src}
                                     alt={item.label}
