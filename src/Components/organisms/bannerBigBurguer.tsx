@@ -17,11 +17,11 @@ export default function BannerBigBurger () {
         <div className='bg-white w-full grid grid-cols-1 md:grid-cols-2 items-center gap-6'>
             {/* Text */}
             <div className='order-2 md:order-1 flex flex-col justify-center items-center 
-            md:items-start text-center md:text-left gap-3 pl-0: md:pl-25'>
+            md:items-start text-center md:text-left gap-3 pl-0: md:pl-25 text-black'>
                 <h2 className='text-[32px] md:text-[45px] font-bold leading-9'>
                     McDonald's
                 </h2>
-                <p className='text-[14px] md:text-[18px] mt-0 md:mt-2 text-black'>
+                <p className='text-[14px] md:text-[18px] mt-0 md:mt-2'>
                     Más que una hamburguesería
                 </p>
             </div>  
