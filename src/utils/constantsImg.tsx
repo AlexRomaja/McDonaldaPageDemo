@@ -22,9 +22,9 @@ export const bannerBuger = 'https://mcd-landings-q-static.appmcdonalds.com/uploa
 export const bannerBugerMobil = 'https://mcd-landings-q-static.appmcdonalds.com/uploads-quality/featured_Tile_Mobile_ad909f4648.jpg'
 
 /* Carrusel */
-export const spiderCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Spider_Manl_Banner_720_x_450_72b18d1e10.png';
-export const appRegistro = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_Loyalty_Banners_720x450_ok_3c5e6a2870.png';
-export const mundialCombo = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_CUPS_Web_Banner_CAROUSEL_720x450_18ccdb8e53.png';
+export const promo1 = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/Mc_D_C_Fcrocs_banner_web_720x450_733fe449dc.jpg';
+export const promo2 = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/MCD_CFLOYALTY_Banner_web_720_X450_046a6cebc8.jpg';
+export const promo3 = 'https://mcd-landings-l-statics.appmcdonalds.com/uploads-live/MCD_KPDH_BANNERWEB_720_X450_1_085ed8fe9a.jpg';
 
 /* Grid de 3 */
 export const cardsDataHome = [
@@ -45,6 +45,12 @@ export const carruselImgHome = [
     label:'Hamburguesa Doble con Queso',
     text:,
     body:'',
+    informacion: {
+    nutricional : {
+    
+    }
+    alergenos: []
+    }
     src:'',
 
 */

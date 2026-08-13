@@ -6,8 +6,8 @@ export default function CardsHome () {
         <>
         <div className='bg-white'>
             <section className='w-full max-w-7xl mx-auto px-4 py-8'>
-            <div className='flex flex-col md:flex-row md:flex-wrap lg:flex-row 
-            gap-6 md:gap-2 items-center justify-center '>
+            <div className='flex flex-col lg:flex-wrap lg:flex-row 
+            gap-6 lg:gap-2 items-center justify-center '>
                 {cardsDataHome.map((cards) => (
                     <div key={cards.id}
                     className='relative w-full md:flex-1 
