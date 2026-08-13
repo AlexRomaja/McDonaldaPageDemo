@@ -3,16 +3,16 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { spiderCombo, appRegistro, mundialCombo} from '@/utils/constantsImg';
+import { promo1, promo2, promo3} from '@/utils/constantsImg';
 
 import 'swiper/css';
 
 export default function CarruselHome () {
 
     const carouselItems = [
-        {id:1, alt:'im1', src:spiderCombo},
-        {id:2, alt:'im2', src:appRegistro},
-        {id:3, alt:'im3', src:mundialCombo},
+        {id:1, alt:'im1', src:promo1},
+        {id:2, alt:'im2', src:promo2},
+        {id:3, alt:'im3', src:promo3},
     ]
 
     return(

@@ -4,20 +4,11 @@ import Link from 'next/link';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {FreeMode} from 'swiper/modules';
 import { swipeMenuData } from '@/utils/constantsImg';
+import { addSlug } from '@/utils/slug';
 
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import { usePathname } from 'next/navigation';
-
-const addSlug = (text:string) => {
-        return text
-        .toLocaleLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/ñ/g, 'n')
-        .replace(/\s+/g, '-')
-        .replace(/\s+/g, '-')
-}
 
 const menuDataSlug = swipeMenuData.map((item) => ({
         ...item,
@@ -27,8 +18,6 @@ const menuDataSlug = swipeMenuData.map((item) => ({
 export default function SwipeMenu () {
 
     const pathname = usePathname();
-
-    
 
     console.log('🪖 menuDataSlug ', menuDataSlug)
     return(
@@ -43,7 +32,6 @@ export default function SwipeMenu () {
             className='w-full px-6'>
                 {menuDataSlug.map((item) => {
                     const href = `/menu/${item.slug}`;
-                    const isActive = pathname === href;
 
                     return(
                         <SwiperSlide key={item.id} className='!w-auto'>
