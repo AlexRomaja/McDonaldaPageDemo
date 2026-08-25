@@ -45,13 +45,12 @@ export const carruselImgHome = [
     label:'Hamburguesa Doble con Queso',
     text:,
     body:'',
+    src:'',
     informacion: {
-    nutricional : {
-    
-    }
+        nutricional : { 
+        },
     alergenos: []
     }
-    src:'',
 
 */
 export const menuData = {
@@ -60,73 +59,438 @@ export const menuData = {
             label:'Hamburguesa Doble con Queso', 
             text:'Hamburguesa Doble con Queso',
             body:'Dos deliciosas carnes, 100% de res, con dos rebanadas de queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjoso bollo.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa Doble con Queso.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa Doble con Queso.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },
+            
         {id:1, 
             label:'Hamburguesa con Queso', 
             text:'Hamburguesa con Queso',
             body:'Deliciosa carne 100% de res, con queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjadito bollo. Un clásico de siempre.', 
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa con Queso.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa con Queso.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:2, 
             label:'Hamburguesa Triple con Queso', 
             text:'Hamburguesa Triple con Queso',
             body:'Tres jugosas carnes, 100% de res, con dos rebanadas de queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjoso bollo.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa con Queso Triple.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Hamburguesa con Queso Triple.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:3, 
             label:'Cuarto de Libra con Queso', 
             text:'Cuarto de Libra con Queso',
             body:'Cada Cuardo de Libra  con queso incluye una carne  100% de res, calientitas y jugosos s. Se sazonan con una pizca de sal y pimienta, y se cocinan a la perfección en nuestras planchas. Se les agregan dos rebanadas de queso derretido, cebollas en tiras y crujientes pepinillos, todo en un pan con semillas de ajonjolí.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Cuarto de Libra con Queso.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Cuarto de Libra con Queso.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:4, 
             label:'Cuarto de Libra Doble con Queso', 
             text:'Cuarto de Libra Doble con Queso',
             body:'Cada Cuardo de libra doble con queso incluye dos carne  100% de res, calientitas y jugosos s. Se sazonan con una pizca de sal y pimienta, y se cocinan a la perfección en nuestras planchas. Se les agregan dos rebanadas de queso derretido, cebollas en tiras y crujientes pepinillos, todo en un pan con semillas de ajonjolí.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Cuarto de Libra Doble con Queso.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Cuarto de Libra Doble con Queso.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:5, 
             label:'Big Mac', 
             text:'Big Mac', 
             body:'La perfección hecha hamburguesa que te hace agua la boca comienza con dos patties de 100% carne y la salsa Big Mac®, todo dentro de un pan con semillas de ajonjolí. Viene cubierta con pepinillos, crujiente lechuga, cebollas y queso americano para lograr ese sabor único de la hamburguesa 100% de carne.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Big Mac.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Big Mac.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:6, 
             label:'McNifica', 
             text:'McNifica', 
             body:'Es una hamburguesa con una jugosa carne 100% de res, queso tipo americano, lechuga, pepinillos, cebolla y dos rebanadas de fresco jitomate. Aderezada con mayonesa, catsup y mostaza, en un esponjadito pan cubierto de ajonjolí.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNi-uefica-.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNi-uefica-.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:7, 
             label:'McNifica Doble', 
             text:'McNifica Doble', 
             body:'Es una hamburguesa con doble  jugosa carne 100% de res, queso tipo americano, lechuga, pepinillos, cebolla y dos rebanadas de fresco jitomate. Aderezada con mayonesa, catsup y mostaza, en un esponjadito pan cubierto de ajonjolí.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNi-uefica Doble.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNi-uefica Doble.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
     ],
     pollo: [
         {id:0, 
             label:'McNuggets 4', 
             text:'McNuggets 4', 
             body:'4 sabrosos y crocantes McNuggets de Pechuga pollo.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$original.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$original.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:1, 
             label:'McNuggets 7', 
             text:'McNuggets 7', 
             body:'6 Nuggets de pechuga de pollo con una capa de empanizado doradito',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 6 CARTA.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 6 CARTA.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:2, 
             label:'McNuggets 10', 
             text:'McNuggets 10', 
             body:'Tiernos y jugosos trocitos 100% de pechuga de pollo con una capa de empanizado doradito que, aderezados con salsa agridulce, te harán pedir más. Los McNuggets saben mejor con tus papas y refresco favoritos. Puedes pedirlos en presentación de 10 ó 20 piezas.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 10.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 10.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:3, 
             label:'McNuggets 20', 
             text:'McNuggets 20', 
             body:'Tiernos y jugosos trocitos 100% de pechuga de pollo con una capa de empanizado doradito que, aderezados con salsa agridulce, te harán pedir más. Los McNuggets saben mejor con tus papas y refresco favoritos. Puedes pedirlos en presentación de 10 ó 20 piezas.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 20.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McNUGGETS 20.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:4, 
             label:'McPollo', 
             text:'McPollo', 
             body:'Deliciosa hamburguesa de pollo empanizado, acompañada de lechuga y mayonesa. ¡Sencilla y deliciosa!',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McPollo-SinRef.png/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McPollo-SinRef.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
         {id:5, 
             label:'McCrispy Deluxe', 
             text:'McCrispy Deluxe', 
             body:'100% pechuga de pollo crujiente con un toque de mayonesa, lechuga fresca y dos rodajas de jitomate jugosito, todo esto cubierto por un suavecito pan dorado de papa.',
-            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$knX55WKu/200/200/original?country=mx'},
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$knX55WKu/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, peso:163, idr:0},
+                        {id:1, peso:450, idr:0},
+                        {id:2, peso:24, idr:0},
+                        {id:3, peso:37, idr:0},
+                        {id:4, peso:25, idr:0},
+                        {id:5, peso:1037, idr:0},
+                        {id:6, peso:0.01, idr:0},
+                        {id:7, peso:9.85, idr:0},
+                        {id:8, peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }
+        },
     ],
 };

@@ -19,10 +19,11 @@ export default async function MenuPages ({params}: MenuPagesProps) {
     if(!products){
         notFound();
     }
-
+console.log('🐍products ', products)
     return (
         <>
         <SwipeMenu />
+
         <div className="bg-white ">
             <h1 className="text-[30px] text-black font-bold px-12 mt-10">{`${setTitle}`}</h1>
             <section>
