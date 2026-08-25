@@ -10,19 +10,3 @@ describe('formatea texto para crear slug', () => {
         expect(addSlug('Piñata de Piña')).toBe('pinata-de-pina')
     })
 })
-
-
-
-
-/* 
-import {addSlug} from '../slug';
-
-describe('addSlug utility', () =>{
-    it('debe convertir strings en un slug valido', () => {
-        expect(addSlug('Cajita Feliz Épica')).toBe('cajita-feliz-epica');
-    });
-
-    it('debe reemplazar ñ por n', () =>{
-        expect(addSlug('Piñata de Piña')).toBe('pinata-de-pina');
-    });
-}) */

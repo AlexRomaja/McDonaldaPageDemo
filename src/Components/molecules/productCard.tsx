@@ -18,7 +18,7 @@ interface ProductCardProps {
 export default function ProductCard ({product, categorySlug} : ProductCardProps) {
 
     const productSlug = addSlug(product.label);
-    const href = `/menu/${categorySlug}/${productSlug}`
+    const href = `/menu/${categorySlug}/${productSlug}`;
     
     console.log('🧭 productSlug ', productSlug)
     
