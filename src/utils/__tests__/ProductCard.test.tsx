@@ -14,11 +14,12 @@ const mockProduct = {
     text:'Hamburguesa Doble con Queso',
     body:'Dos deliciosas carnes, 100% de res, con dos rebanadas de queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjoso bollo.',
     src:'https://example.com/hamburguesa.png',
+    productSlug: 'hamburguesa-doble-con-queso'
 }
 
 describe('Crea card del producto', () => {
     it('Genera el texto e imagen de la card', ()=> {
-        render(<ProductCard product={mockProduct} categorySlug='hamburguesas' />);
+        render(<ProductCard product={mockProduct} categorySlug='hamburguesas' productSlug='hamburguesa-doble-con-queso'/>);
 
         expect(screen.getByText('Hamburguesa Doble con Queso')).toBeInTheDocument();
 
@@ -28,7 +29,7 @@ describe('Crea card del producto', () => {
     });
 
     it('Genera sub-ruta', ()=>{
-        render(<ProductCard product={mockProduct} categorySlug='hamburguesas' />);
+        render(<ProductCard product={mockProduct} categorySlug='hamburguesas' productSlug='hamburguesa-doble-con-queso' />);
 
         const link = screen.getByRole('link');
         expect(link).toHaveAttribute('href', '/menu/hamburguesas/hamburguesa-doble-con-queso')

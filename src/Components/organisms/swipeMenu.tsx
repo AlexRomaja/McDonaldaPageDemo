@@ -19,7 +19,6 @@ export default function SwipeMenu () {
 
     const pathname = usePathname();
 
-    console.log('🪖 menuDataSlug ', menuDataSlug)
     return(
         <>
         <nav className='w-full bg-white py-4 border border-gray-100 select-none xsm:pl-4 md:pl-0 '>

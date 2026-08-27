@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { menuData } from "@/utils/constantsImg"
 import SwipeMenu from "@/Components/organisms/swipeMenu";
-
 import ProductCard from "@/Components/molecules/productCard";
+import { addSlug } from "@/utils/slug";
+import { getProductbyCategory } from "@/services/mapSlug";
 
 interface MenuPagesProps {
     params: Promise<{ slug: string}>;
@@ -11,15 +12,15 @@ interface MenuPagesProps {
 export default async function MenuPages ({params}: MenuPagesProps) {
 
     const {slug} = await params;
-    const products = menuData[slug as keyof typeof menuData];
-
-    const getTitle = slug.replace(/-/g, " ");
-    const setTitle = getTitle.charAt(0).toUpperCase() + getTitle.slice(1);
+    const products = await getProductbyCategory(slug)
 
     if(!products){
         notFound();
     }
-console.log('🐍products ', products)
+
+    const getTitle = slug.replace(/-/g, " ");
+    const setTitle = getTitle.charAt(0).toUpperCase() + getTitle.slice(1);
+
     return (
         <>
         <SwipeMenu />
@@ -34,6 +35,7 @@ console.log('🐍products ', products)
                         key={product.id}
                         product={product}
                         categorySlug={slug}
+                        productSlug={addSlug(product.label)}
                         />
                     ))}
                 </div>
