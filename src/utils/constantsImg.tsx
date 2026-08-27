@@ -70,15 +70,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -102,15 +102,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -133,15 +133,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -164,15 +164,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -196,14 +196,15 @@ export const menuData = {
                     sodio:1037,
                     nutTabla: [
                         {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -226,15 +227,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -257,15 +258,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -288,15 +289,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -321,15 +322,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -352,15 +353,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -383,15 +384,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -414,15 +415,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -445,15 +446,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -476,15 +477,15 @@ export const menuData = {
                     proteinas:25,
                     sodio:1037,
                     nutTabla: [
-                        {id:0, peso:163, idr:0},
-                        {id:1, peso:450, idr:0},
-                        {id:2, peso:24, idr:0},
-                        {id:3, peso:37, idr:0},
-                        {id:4, peso:25, idr:0},
-                        {id:5, peso:1037, idr:0},
-                        {id:6, peso:0.01, idr:0},
-                        {id:7, peso:9.85, idr:0},
-                        {id:8, peso:0, idr:0},
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
                     ]
                 },
                 alergenos: [
@@ -493,4 +494,189 @@ export const menuData = {
             }
         },
     ],
+    paraacompañar: [
+        {id:0, 
+            label:'Papas Grandes', 
+            text:'Papas Grandes',
+            body:'Papas grandes a la francesa clasicas doraditas y crujientes por fuera.',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$PAPAS GRANDES WEB.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:255,
+                    grasas:'18,56',
+                    grasaIDR:0,
+                    carbohidratosT:'48,37',
+                    carbIDR:82,
+                    proteinas:'373,5',
+                    sodio:'296.96',
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },
+    ],
+    bebidas: [
+                {id:0, 
+            label:'Fanta Mediana', 
+            text:'Fanta Mediana',
+            body:'Diversión contra la sed. Preparate para vencer la sed con una bebida helada.',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$vaso MED Fanta SA  300x225.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:'35mg',
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Soja',
+                ]
+            }  
+        },
+    ],
+    postres: [
+                {id:0, 
+            label:'McFlurry Fresa Mix', 
+            text:'McFlurry Fresa Mix',
+            body:'Helado preparado con 100% leche de vaca acompañado de trozos de galleta Oreo y jarabe de fresa',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$k8Xdq9CL/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },
+    ],
+    desayunos: [
+                {id:0, 
+            label:'Desayuno Especial', 
+            text:'Desayuno Especial',
+            body:'Huevo , salchicha , papa hashbrown y unos deliciosos muffins',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Desayuno_Especial_1.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },
+    ],
+    cajitafeliz:[
+        {id:0, 
+            label:'Papas Grandes', 
+            text:'Papas Grandes',
+            body:'Dos deliciosas carnes, 100% de res, con dos rebanadas de queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjoso bollo.',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$PAPAS GRANDES WEB.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },
+    ],
+    cajitafelizdesayuno:[        
+        {id:0, 
+            label:'Papas Grandes', 
+            text:'Papas Grandes',
+            body:'Dos deliciosas carnes, 100% de res, con dos rebanadas de queso amarillo, acompañada de catsup, mostaza, pepinillos y cebolla con un fresco y esponjoso bollo.',
+            src:'https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$PAPAS GRANDES WEB.png/200/200/original?country=mx',
+            informacion: {
+                nutricional : { 
+                    calorias:450,
+                    grasas:24,
+                    grasaIDR:0,
+                    carbohidratosT:37,
+                    carbIDR:0,
+                    proteinas:25,
+                    sodio:1037,
+                    nutTabla: [
+                        {id:0, text:'Peso', peso:'163g', idr:0},
+                        {id:1, text:'Calorías (Kcal)', peso:'4,05g', idr:0},
+                        {id:2, text:'Azúcares totales',peso:24, idr:0},
+                        {id:3, text:'Azúcares agregados',peso:37, idr:0},
+                        {id:4, text:'Grasas',peso:25, idr:0},
+                        {id:5, text:'Carbohidratos',peso:1037, idr:0},
+                        {id:6, text:'Proteínas',peso:0.01, idr:0},
+                        {id:7, text:'Sodio',peso:9.85, idr:0},
+                        {id:8, text:'Grasas Saturadas',peso:0, idr:0},
+                    ]
+                },
+                alergenos: [
+                    'Leche', 'Soja','Lactosa','Pimienta','Huevo','Gluten','Cereales','Mostaza','Sésamo','Trigo, avena, cebada y centeno'
+                ]
+            }  
+        },]
+
 };

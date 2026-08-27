@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { addSlug } from "@/utils/slug";
 
 export interface Product {
     id: number;
@@ -13,14 +12,13 @@ export interface Product {
 interface ProductCardProps {
     product: Product;
     categorySlug: string;
+    productSlug: string;
 }
 
-export default function ProductCard ({product, categorySlug} : ProductCardProps) {
+export default function ProductCard ({product, categorySlug, productSlug} : ProductCardProps) {
 
-    const productSlug = addSlug(product.label);
     const href = `/menu/${categorySlug}/${productSlug}`;
-    
-    console.log('🧭 productSlug ', productSlug)
+
     
     return(
         <Link 
