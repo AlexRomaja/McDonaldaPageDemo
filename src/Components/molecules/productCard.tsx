@@ -18,7 +18,7 @@ interface ProductCardProps {
 export default function ProductCard ({product, categorySlug, productSlug} : ProductCardProps) {
 
     const href = `/menu/${categorySlug}/${productSlug}`;
-
+console.log('👽 ', productSlug)
     
     return(
         <Link 

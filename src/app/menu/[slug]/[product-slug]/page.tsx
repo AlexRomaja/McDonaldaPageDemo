@@ -53,7 +53,7 @@ export default async function ProductPage ({params}: ProductPageProps) {
             </div>
 
             {/* Seccion de dropmenus */}
-            <div>
+            <div className="items-center mx-5 md:mx-60 mt-5 md:mt-0">
                 <ProductAccordion informacion={product.informacion}/>
             </div>
         </main>
