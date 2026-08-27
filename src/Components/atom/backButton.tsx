@@ -17,7 +17,7 @@ export default function BackButton(){
     }
 
     return(
-        <div className="mx-4 my-4 flex flex-row">
+        <div className="bg-white px-4 py-4 flex flex-row ">
             <Link href={parentPath}
             className="inline-flex items-center text-black hover:text-red-500 transition-colors
             transition-transform duration-200 hover:scale-110">
